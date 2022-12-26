@@ -7,6 +7,4 @@ To run this shell script everyday, did the following on the command line in my h
 $crontab -e
 
 This opens vim. Hit "i" to enter insert mode. Pasted the following:
-
-# Set Nasa image of the day as background everyday at 12am
 0 0 \* \* \* bash "/Users/shivsharma/Local Repos/ImageOfTheDayWebScraper/imageToBackgroundScript.sh"
